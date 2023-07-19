@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height:  700px;
+    background-image: url(./projekat_slika1.jpeg);
+    background-size: 100%;
+    display: flex;
+}
+#search_bar {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 5px;
+    background-image: url(./seach_icon3_projekat1.png);
+}
+header{
+    border-bottom: 1px solid gray;
+}

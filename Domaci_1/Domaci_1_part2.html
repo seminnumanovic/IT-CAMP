@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabela</title>
+  <style>
+    h1 {
+      text-size-adjust: 50;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto; 
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    ul li {
+      margin-right: 10px;
+    }
+
+    .item-container {
+      border: 1px solid black;
+      padding: 5px;
+      display: inline-block;
+    }
+
+    ul li:nth-child(2) .item-container {
+      background-color: black;
+      color: white;
+    }
+    
+    body {
+      background-image: url("escheresque.png");
+      background-repeat: repeat;
+      text-align: center; 
+    }
+    
+    ul li a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tabela</h1>
+  <div style="text-align: center;"> 
+    <table>
+      <thead>
+        <tr>
+          <th><b>Razredni</b></th>
+          <th><b>Ucenik</b></th>
+          <th><b>Odeljenje</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mensur</td>
+          <td><u>Semin</u></td>
+          <td>III11</td>
+        </tr>
+        <tr>
+          <td>Merima</td>
+          <td><s>Luka</s></td>
+          <td>III8</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <ul>
+    <li><div class="item-container"><a href="./Domaci_1_part1.html"><span style="color: black;">1</span></a></div></li>
+    <li><div class="item-container" style="background-color: black;"><a href="./Domaci_1_part2.html"><b style="color: white;">2</b></a></div></li>
+    <li><div class="item-container"><a href="./Domaci_1_part3.html"><span style="color: black;">3</span></a></div></li>
+  </ul>
+</body>
+</html>

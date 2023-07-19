@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-top: 10px;
+        }
+        
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="ime">Ime:</label><br>
+        <input type="text" required><br>
+
+        <label for="prezime">Prezime:</label><br>
+        <input type=""" disabled><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email"  pattern="[@]" required><br>
+
+        <label for="datemax">Unesi datum pre 1980-01-01:</label><br>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br>
+         
+        <label for="datemin">Unesi datum posle 2000-01-01:</label><br>
+        <input type="date" id="datemin" name="datemin" min="2000-01-01"><br>
+        
+        <label for="telefon">Telefon:</label><br>
+        <input type="tel"><br>
+
+        <label for="grad">Grad:</label><br>
+        <input type="text"><br>
+
+        <label for="ulica">Ulica:</label><br>
+        <input type="text"><br>
+
+        <label for="broj_ulice">Broj ulice:</label><br>
+        <input type="number"><br>
+
+        <label for="postanski_broj">Poštanski broj:</label><br>
+        <input type="number"><br>
+
+        <label for="broj_stana">Broj stana:</label><br>
+        <input type="number"><br>
+
+        <label for="interfon">Interfon:</label><br>
+        <input type="number"><br>
+
+        <label for="sprat">Sprat:</label><br>
+        <input type="number"><br>
+
+        <label for="lozinka">Lozinka:</label><br>
+        <input type="password"><br>
+
+        
+        <label for="ponovite_lozinku">Ponovite lozinku:</label><br>
+        <input type="password"><br>
+
+        <p>Pol:</p>
+        <input type="radio" id="muski_pol" name="pol" value="muski">
+        <label for="muski">Muški</label><br>
+
+        <input type="radio" id="zenski_pol" name="pol" value="zenski">
+        <label for="zenski">Ženski</label><br>
+
+        <input type="checkbox" id="uslovi_koriscenja" name="uslovi_koriscenja" value="uslovi_koriscenja">
+        <label for="uslovi_koriscenja">Slažem se sa uslovima korišćenja</label><br>
+
+        <input type="checkbox" id="uslovi_kupovine" name="uslovi_kupovine" value="uslovi_kupovine">
+        <label for="uslovi_kupovine">Slažem se sa uslovima kupovine</label><br>
+
+        <label for="drzava">Izaberi Državu:</label>
+        <select name="drzava" id="drzava">
+            <option value="Srbija">Srbija</option>
+            <option value="CG">Crna Gora</option>
+            <option value="BiH">Bosna i Hercegovina</option>
+            <option value="Hrvatska">Hrvatska</option>
+        </select><br>
+
+        <button type="submit">Gotovo!</button>
+    </form>
+</body>
+</html> 

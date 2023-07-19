@@ -1,0 +1,45 @@
+body{
+    color: #ECF0F1;
+    background-color: #2f3136;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.header{
+    margin: 25px 0 0 20px;
+}
+a{
+    color: #ECF0F1;
+    text-decoration: none;
+
+}
+.form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: #ECF0F1; 
+
+}
+input{
+    padding: 10px;
+    background-color: #181919;
+    border: 2px solid #2f3136;
+    border-radius: 10px;
+}
+.form_data{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.button{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 17px;
+    justify-content: center;
+}
+button{
+    padding: 10px 70px  ;
+    border: 2px solid #2f3136;
+    border-radius: 10px;
+    background-color: #181919;
+    color: #ECF0F1;
+}

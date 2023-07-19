@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slika</title>
+    <style>
+        h1 {
+            text-size-adjust: 50;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        ul li {
+            margin-right: 10px;
+        }
+
+        .item-container {
+            border: 1px solid black;
+            padding: 5px;
+            display: inline-block;
+        }
+
+        ul li:first-child .item-container {
+            background-color: black;
+            color: white;
+        }
+        
+        body {
+            background-image: url("escheresque.png");
+            background-repeat: repeat;
+            text-align: center;
+        }
+        
+        ul li a {
+          text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Slika</h1>
+
+    <img src="../centar_nit_slika.png" alt="">
+
+    <ul>
+        <li><div class="item-container" style="background-color: black;"><a href="./Domaci_1_part1.html"><b style="color: white;">1</b></a></div></li>
+        <li><div class="item-container"><a href="./Domaci_1_part2.html"><span style="color: black;">2</span></a></div></li>
+        <li><div class="item-container"><a href="./Domaci_1_part3.html"><span style="color: black;">3</span></a></div></li>
+    </ul>
+
+</body>
+</html>
