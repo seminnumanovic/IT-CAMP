@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.kartica1,.kartica2,.kartica3, .kartica4{
+    display: block;
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px;
+}
+.kartica11{
+    flex-direction: column;
+    display: inline;
+    padding: 10px;
+    text-shadow: 1px 1px 5px blue;
+}
+.kartica1{
+    transform: rotate(50deg) ;
+}
+.kartica2{
+    transform: scaleX(2)
+}
+.kartica3{
+    transform: translate(100px,200px);
+}

@@ -1,0 +1,24 @@
+.wrapper{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.div1:hover{
+    box-shadow: 0px 5px 20px blue;
+    transform: translateY(-20px);
+}

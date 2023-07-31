@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: 0.8s;
+    transition-timing-function: ease-out;
+}
+.div1:hover{
+    background-color: magenta;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.div2{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    transition-timing-function: cubic-bezier(.47,.21,0,1.59);
+
+}
+.div2:hover{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.animation{
+    
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    25%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: translateX(400px) rotate(360deg);
+
+    }
+}
