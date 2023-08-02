@@ -15,15 +15,9 @@
         <input type="text" id="search_bar" placeholder="Search">
         <button id="header-button2"><img src="./search.icon.svg" alt="" id="search-icon"></button>
       </form>
-      <button id="header_button" onclick="toggleMenu()">
+      <button id="header_button">
         <img src="./menu.icon.svg" alt="" id="button_slika">
       </button>
-    </div>
-    <div class="menu" id="menu">
-      <ul>
-        <li><a href="../practice.html" style="color: white;">Page 1</a></li>
-        <li><a href="./main_page.html" style="color: white;">Page 2</a></li>
-      </ul>
     </div>
     <div class="textdeo">
       <div class="prvitext">
@@ -159,14 +153,5 @@
     </div>
   </div>
   </div>
-
-  <script>
-    function toggleMenu() {
-      const menu = document.getElementById("menu");
-      const darkOverlay = document.getElementById("darkOverlay");
-      menu.classList.toggle("menu-active");
-      darkOverlay.style.display = menu.classList.contains("menu-active") ? "block" : "none";
-    }
-  </script>
 </body>
 </html>
