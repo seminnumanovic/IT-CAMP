@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.slika{
+    background-image: url(./Domaci-5-slika-pozadine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 679px;
+    width: 100%;
+    transition: 1s linear;
+}
+
+.login{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* animation: slide-in 1s linear; */
+    animation: login 1s 1s linear;
+    animation-fill-mode: both;
+}
+@keyframes login{
+    from{
+        opacity: 0;
+        width: 0;
+        padding: 0;
+    }
+    to{
+        opacity: 1;
+        width: 520px;
+    }
+}
+/* @keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+.main{
+    display: flex;
+}
+.header1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4F46A5;
+    animation: header1 0.5s linear;
+    animation-delay: 2.2s;
+    animation-fill-mode: both;
+
+}
+@keyframes header1{
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+.header2{
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    animation: header2 0.5s linear;
+    animation-delay: 2.4s;
+    animation-fill-mode: both;
+
+}
+@keyframes header2{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.forma-email, .forma-password{
+    padding: 10px;
+    width: 288px;
+    height: 46px;
+    margin-top: 20px;
+}
+.forma-email{
+    animation: forma-email 0.5s linear 2.6s;
+    animation-fill-mode: both;
+}
+
+.forma-password{
+    animation: forma-password 0.5s linear 2.8s;
+    animation-fill-mode: both;
+}
+
+@keyframes forma-email{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes forma-password{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+a{
+    font-size: 14px;
+    color: black;
+}
+.forgot-password{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 45px;
+    animation: forgot-password 0.5s 3s linear;
+    animation-fill-mode: both;
+}
+
+@keyframes forgot-password{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.button{
+    margin-top: 28px;
+    width: 288px;
+    height: 46px;
+    background: linear-gradient(
+        to right, #de48b5 0%, #0097ff 100%
+    );
+    border:none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    animation: button 0.5s 3.2s linear;
+    animation-fill-mode: both;
+}
+
+@keyframes button{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,368 +1,371 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .prvideo {
-    position: relative;
-    background-image: url(./projekat_slika1.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 640px;
-    z-index: 1;
-  }
-  
-  .prvitext, .drugitext {
-    padding: 10px;
-    padding-left: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-  }
-  
-  .prvitext{
-    width: fit-content;
-    background-color: #fff;
-    z-index: 1;
-    position: absolute;
-    top: 130%;
-  }
-  .drugitext{
-    width: fit-content;
-    background-color: #F1C50E;
-    z-index: 2;
-    position: absolute;
-    top: 145%;
-    
-  }
- .textdeo{
-    height: 300px;
-    position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.prvideo {
+  position: relative;
+  background-image: url(./projekat_slika1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 640px;
+  z-index: 1;
+}
 
- } 
-  #search_bar {
-    font-size: 15px;
-    font-style: thin;
-    margin: 15px 0px 15px 0px;
-    padding: 10px;
-    background-color: transparent;
-    border: 1px solid lightgray;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid lightgray;
-    z-index: 1;
-    position: relative;
-  }
-  
-  #header_button {
-    cursor: pointer;
-    padding-right: 10px;
-    background-color: transparent;
-    border: transparent;
-  }
-  
-  #button_slika {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .drugideo{
-    height: 700px;
-    position: relative;
-    justify-content: center;
-  }
-  .zuta-kocka-centar{
-    position: absolute;
-    left: 33%;
-    margin-top: 50px;
-    align-items: center;
-    background-color: #F1C50E;
-    height: 610px;
-    width: 40%;
-    z-index: 1;    
-  }
-  .slika-unutar-kocke{
-    position: absolute;
-    left: 27%;
-    top: 5%;
-  }
-  #slika-unutar-kocke{
-    height: 548px;
-    width: 411px;
-  }
-  .text-unutar-kocke{
-    border: 5px solid black;
-    font-family: sans-serif;
-    font-style: thin;
-    position: absolute;
-    top: 34%;
-    right: 95%;
-    background-color: #fff;
-    width: 400px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-  }
-  .header-unutar-kocke{
-    padding: 20px;
-    padding-left: 30px;
-  }
-  .paragraph-unutar-kocke{
-    padding: 20px;
-    padding-left: 30px;
-    padding-top: 0;
-    letter-spacing: 1px;
-    font-weight: 100;
-  }
-  .treci-deo{
-    background-color: #fff;
-    height: 400px;
-    width: 100%;
-    position: relative;
-  }
-  .slika1-treci-deo{
-    width: 23%;
-    border: 6px transparent;
-  }
-  #slika1-treci-deo{
-    height: 300px;
-  }
-  .text1-treci-deo, .text2-treci-deo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    padding-top: 0;
-    background-color: #fff;
-    height: 300px;
-    width: 23%;
-    border: 6px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .wrapper-za-slike{
-    position: absolute;
-    top: 12.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .header1-treci-deo{
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  .paragraph-treci-deo{
-    font-size: 20px;
-  }
-  #slika2-treci-deo{
-    height: 300px; 
-  }
-  .slika2-treci-deo{
-    width: 23%;
-    border: 6px transparent;
-  }
-  .header2-treci-deo{
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  .header-unutar-kocke{
-    font-size: 24px;
-  }
-  .cetvrti-deo{
-    background-image: url(./projekat_slika5.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-  }
-  .slika-cetvrti-deo{
-    position: absolute;
-    top: 50%;
-  }
-  .header-cetvrti-deo{
-    font-size: 36px;
-    width: fit-content;
-    margin-bottom: 20px;
-  }
-  .paragraph-cetvrti-deo{
-    width: 50%;
-  }
-  .slike-peti-deo{
-    height: 500px;
-    z-index: -1;
-    position: relative;
-    display: flex;
-  }
-  #slika1-peti-deo, #slika2-peti-deo{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.prvitext, .drugitext {
+  padding: 10px;
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
 
-  }
-  #slika1-peti-deo{
-    object-position: 100% 100%;
-  }
-  .slika1-peti-deo, .slika2-peti-deo{
-    z-index: 2;
-  }
-  .zuta-kocka-peti-deo{
-    height: 250px;
-    width: 100%;
-    background-color: #F1C50E;
-    position: absolute;
-    top: 28%;
-  }
-  .slika1-peti-deo{
-    position: absolute;
-    top: 10%;
-    left: 4%;
-    width: 31%;
-    height: 80%;
-  }
-  .slika2-peti-deo{
-    position: absolute;
-    top: 10%;
-    left: 39%;
-    width: 31%;
-    height: 80%;
-    zoom: 2000%;
-  }
-  .text-peti-deo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #button-peti-deo{
-    width: 150px;
-    height: 38px;
-    background-color: black;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
-  }
-  .header-peti-deo{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-  }
-  .paragraph-peti-deo{
-    margin: 30px;
-    max-width: 740px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .sesti-deo{
-    display: flex;
-    justify-content: space-between;
-    height: 510px;
-    flex-wrap: wrap;
-  }
-  #slika1-sesti-deo, #slika2-sesti-deo{
-    height: 460px;
-    width: 100%;
-    object-fit: cover;
-  }
-  .slika1-sesti-deo, .slika2-sesti-deo{
-    width: 32%;
-    min-width: none;
-  }
-  .text1-sesti-deo{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 460px;
-    border: 6px solid black;
-    width: 32%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .header1-text1-sesti-deo{
-    font-size: 32px;
-    margin-bottom: 3px;
-  }
-  .header2-text1-sesti-deo{
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-  }
-  .symbol1-text1-sesti-deo{
-    margin-bottom: 12px;
-  }
-  .paragraph1-text1-sesti-deo{
-    text-align:center;
-    margin-bottom: 15px;
-    letter-spacing: 1.5px;
-  }
-  .paragraph2-text1-sesti-deo{
-    font-style: thin;
-    letter-spacing: 2px;
-  }
-  .sedmi-deo{
-    background-image: url(./projekat_slika10.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  .ikone-sedmi-deo{
-    width: 120px;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    top: 80%;
-    
-  }
-  #facebook-icon, #twitter-icon, #instagram-icon{
-    height: 25px;
-    width: 25px;
-    padding: 1px;
-  }
-  .heading-sedmi-deo{
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 87%;
-  }
-  .osmi-deo{
-    height: 100px;
-    width: 100%;
-    background-color: #333;
-  }
-  .paragraph1-osmi-deo{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .paragraph1-osmi-deo a{
-    color: lightblue;
-    margin-right: 5px;
-  }
-  #github-ikonica{
-    width: 30px;
-    height: 30px;
-  }
-  .wrapper-osmi-deo{
-    padding-top: 30px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  #search-icon{
-    height: 23px;
-    width: 23px;
-  }
-  #header-button2{
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-    position: absolute;
-    top: 34%;
-    left: 12.5%;
-  }
-  @media screen {
-    
-    
-  }
+.prvitext {
+  background-color: #fff;
+  z-index: 1;
+  position: absolute;
+  top: 130%;
+}
+.drugitext {
+  background-color: #f1c50e;
+  z-index: 2;
+  position: absolute;
+  top: 145%;
+}
+.textdeo {
+  height: 300px;
+  position: relative;
+}
+#search_bar {
+  font-size: 15px;
+  font-style: thin;
+  margin: 15px 0px 15px 0px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  z-index: 1;
+  position: relative;
+}
+
+#header_button {
+  cursor: pointer;
+  padding-right: 10px;
+  background-color: transparent;
+  border: transparent;
+}
+
+#button_slika {
+  width: 30px;
+  height: 30px;
+}
+
+.drugideo {
+  height: 700px;
+  position: relative;
+  justify-content: center;
+}
+.zuta-kocka-centar {
+  position: absolute;
+  left: 33%;
+  margin-top: 50px;
+  align-items: center;
+  background-color: #f1c50e;
+  height: 610px;
+  width: 40%;
+  z-index: 1;
+}
+.slika-unutar-kocke {
+  position: absolute;
+  left: 27%;
+  top: 5%;
+}
+#slika-unutar-kocke {
+  height: 548px;
+  width: 411px;
+}
+.text-unutar-kocke {
+  border: 5px solid black;
+  font-family: sans-serif;
+  font-style: thin;
+  position: absolute;
+  top: 34%;
+  right: 95%;
+  background-color: #fff;
+  width: 400px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.header-unutar-kocke {
+  font-size: 10px;
+  padding: 20px;
+  padding-top: 0;
+  padding-left: 30px;
+}
+.paragraph-unutar-kocke {
+  padding: 20px;
+  padding-left: 30px;
+  padding-top: 0;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.treci-deo {
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+.slika1-treci-deo {
+  width: 23%;
+  border: 6px transparent;
+}
+#slika1-treci-deo {
+  height: 300px;
+}
+.text1-treci-deo,
+.text2-treci-deo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 0;
+  background-color: #fff;
+  height: 300px;
+  width: 23%;
+  border: 6px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper-za-slike {
+  position: absolute;
+  top: 12.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header1-treci-deo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.paragraph-treci-deo {
+  font-size: 20px;
+}
+#slika2-treci-deo {
+  height: 300px;
+}
+.slika2-treci-deo {
+  width: 23%;
+  border: 6px transparent;
+}
+.header2-treci-deo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.header-unutar-kocke {
+  font-size: 24px;
+}
+.cetvrti-deo {
+  background-image: url(./projekat_slika5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.slika-cetvrti-deo {
+  position: absolute;
+  top: 50%;
+}
+.header-cetvrti-deo {
+  font-size: 36px;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.paragraph-cetvrti-deo {
+  width: 50%;
+}
+.slike-peti-deo {
+  height: 500px;
+  z-index: -1;
+  position: relative;
+  display: flex;
+}
+#slika1-peti-deo,
+#slika2-peti-deo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#slika1-peti-deo {
+  object-position: 100% 100%;
+}
+.slika1-peti-deo,
+.slika2-peti-deo {
+  z-index: 2;
+}
+.zuta-kocka-peti-deo {
+  height: 250px;
+  width: 100%;
+  background-color: #f1c50e;
+  position: absolute;
+  top: 28%;
+}
+.slika1-peti-deo {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  width: 31%;
+  height: 80%;
+}
+.slika2-peti-deo {
+  position: absolute;
+  top: 10%;
+  left: 39%;
+  width: 31%;
+  height: 80%;
+  zoom: 2000%;
+}
+.text-peti-deo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#button-peti-deo {
+  width: 150px;
+  height: 38px;
+  background-color: black;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.header-peti-deo {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+}
+.paragraph-peti-deo {
+  margin: 30px;
+  max-width: 740px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sesti-deo {
+  display: flex;
+  justify-content: space-between;
+  height: 510px;
+  flex-wrap: wrap;
+}
+#slika1-sesti-deo,
+#slika2-sesti-deo {
+  height: 460px;
+  width: 100%;
+  object-fit: cover;
+}
+.slika1-sesti-deo,
+.slika2-sesti-deo {
+  width: 32%;
+  min-width: none;
+}
+.text1-sesti-deo {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 460px;
+  border: 6px solid black;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header1-text1-sesti-deo {
+  font-size: 32px;
+  margin-bottom: 3px;
+}
+.header2-text1-sesti-deo {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.symbol1-text1-sesti-deo {
+  margin-bottom: 12px;
+}
+.paragraph1-text1-sesti-deo {
+  text-align: center;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+.paragraph2-text1-sesti-deo {
+  font-style: thin;
+  letter-spacing: 2px;
+}
+.sedmi-deo {
+  background-image: url(./projekat_slika10.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ikone-sedmi-deo {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 80%;
+}
+#facebook-icon,
+#twitter-icon,
+#instagram-icon {
+  height: 25px;
+  width: 25px;
+  padding: 1px;
+}
+.heading-sedmi-deo {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 87%;
+}
+.osmi-deo {
+  height: 100px;
+  width: 100%;
+  background-color: #333;
+}
+.paragraph1-osmi-deo {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph1-osmi-deo a {
+  color: lightblue;
+  margin-right: 5px;
+}
+#github-ikonica {
+  width: 30px;
+  height: 30px;
+}
+.wrapper-osmi-deo {
+  padding-top: 30px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-icon {
+  height: 23px;
+  width: 23px;
+}
+#header-button2 {
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  position: absolute;
+  top: 34%;
+  left: 12.5%;
+}
+@media screen {
+}

@@ -1,0 +1,90 @@
+*{
+    font-family: "Roboto";
+}
+header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+.text-gmail, .text-slika{
+    font-size: 15px;
+    margin-right: 15px;
+}
+.ikonica-header{
+    margin-top: 10px;
+}
+#ikonica-header{
+    font-size: 25px;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#search{
+    width: 350px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 450px;
+}
+.ikonica-levo{
+    padding-right: 10px;
+}
+.ikonica-desno1{
+    margin-right: 10px;
+}
+#google-logo{
+
+    font-size: 65px;
+    font-weight: 500;
+}
+#google-logo:nth-child(1){
+    color: blue;
+}
+.header{
+    display:flex;
+}
+#google-logo:nth-child(2){
+    color: red;
+}
+#google-logo:nth-child(3){
+    color: yellow;
+}
+#google-logo:nth-child(4){
+    color: blue;
+}
+#google-logo:nth-child(5){
+    color: green;
+}
+#google-logo:nth-child(6){
+    color: red;
+}
+.ikonice{
+    margin-top: 50px;
+    display: flex;
+}
+.ikonica-1, .ikonica-2, .ikonica-3{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.ikonica-1{
+    margin-right: 20px;
+}
+.ikonica-2{
+    margin-right: 20px;
+}
