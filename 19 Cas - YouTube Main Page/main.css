@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#ytlogo{
+    height: 50px;
+    width: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-levi-wrapper{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.header-srednji-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.input-wrapper{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content:;
+}
+input{
+    margin-left: 20px;
+    border: none;
+    padding: 5px;
+    width: 500px;    
+    height: 40px;
+}
+.header-desni-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login-button-wrapper{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 30px;
+    align-items: center;
+    margin: 5px;
+    width: 100px;
+}
+.ikonica-1-srednji-wrapper, .ikonica-2-srednji-wrapper{
+    margin: 5px;
+    margin-top: 12px;
+}
+.ikonica-2-srednji-wrapper{
+    margin-right: 10px;
+}
+.ikonica-3-srednji-wrapper{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#login-button{
+    background-color: transparent;
+    border: none;
+    color: #065FD4;
+}
+.login-button, .ikonica-login-button{
+    margin: 5px;
+}
+#ikonica-login-button{
+    color:#065FD4;
+
+}
