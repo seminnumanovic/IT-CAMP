@@ -34,7 +34,7 @@
 .textdeo {
   height: 300px;
   position: relative;
-}
+} 
 #search_bar {
   font-size: 15px;
   font-style: thin;
@@ -42,6 +42,7 @@
   padding: 10px;
   background-color: transparent;
   border: 1px solid lightgray;
+  width: 400px;
 }
 .header {
   display: flex;
@@ -363,9 +364,11 @@
   cursor: pointer;
   background-color: transparent;
   border: transparent;
-  position: absolute;
-  top: 34%;
-  left: 12.5%;
 }
 @media screen {
+}
+.input-wrapper{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
 }
