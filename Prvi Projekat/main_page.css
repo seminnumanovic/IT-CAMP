@@ -400,8 +400,7 @@
   .slika2-treci-deo,
   .text1-treci-deo,
   .text2-treci-deo {
-    width: 48%; /* Make boxes full width on smaller screens */
-  }
+    width: 48%;}
 
   .slika1-treci-deo,
   .slika2-treci-deo {
