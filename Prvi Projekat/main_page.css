@@ -121,10 +121,10 @@
 }
 .header-unutar-kocke {
   font-weight: 400;
+  font-size: 36px;
   padding: 20px;
   padding-left: 30px;
   font-family: "Roboto";
-  font-size: 100px;
 }
 .paragraph-unutar-kocke {
   padding: 20px;
@@ -196,13 +196,14 @@
   background-image: url(./projekat_slika5.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  background-position: center;  
+  height: 765px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
-.slika-cetvrti-deo {
+.wrapper-za-text-cetvrti-deo {
   position: absolute;
-  top: 50%;
+  top: 30%;
 }
 .header-cetvrti-deo {
   font-size: 36px;
@@ -251,7 +252,9 @@
   left: 39%;
   width: 31%;
   height: 80%;
-  zoom: 2000%;
+}
+.prazan-div-peti-deo {
+  display: none;
 }
 .text-peti-deo {
   display: flex;
@@ -300,14 +303,17 @@
   height: 460px;
   border: 6px solid black;
   width: 32%;
+  padding: 20px;
+  line-height: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-display: fall;
 }
 .header1-text1-sesti-deo {
   font-size: 32px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 .header2-text1-sesti-deo {
   margin-bottom: 15px;
@@ -318,7 +324,7 @@
 }
 .paragraph1-text1-sesti-deo {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   letter-spacing: 1.5px;
 }
 .paragraph2-text1-sesti-deo {
@@ -328,6 +334,7 @@
 .sedmi-deo {
   background-image: url(./projekat_slika10.jpeg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 700px;
   display: flex;
@@ -400,7 +407,8 @@
   .slika2-treci-deo,
   .text1-treci-deo,
   .text2-treci-deo {
-    width: 48%;}
+    width: 48%;
+  }
 
   .slika1-treci-deo,
   .slika2-treci-deo {
@@ -413,6 +421,9 @@
   .cetvrti-deo{
     height: 400px;
     margin-top: 300px;
+  }
+  .prvideo{
+    height: 400px;
   }
 }
 @media screen and (max-width: 1286px) {
@@ -472,4 +483,3 @@
     font-family: "Roboto";
     font-size: 16px;
   }
-}
