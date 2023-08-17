@@ -113,5 +113,93 @@
     color: white;
     font-size: 20px;
     font-family: "Roboto";
-    letter-spacing: 1.5px;
+    letter-spacing: 1.5pxt;
+}
+
+.section-2{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 10px solid #232323;
+}
+.section-2-text{
+    color: white;
+}
+#section-2-slika{
+    width: 500px;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-section-2{
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.paragraph-section-2{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+.section-3{
+    height: 550px;
+    background-color: black;
+    border-bottom: 10px solid #232323;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    position: relative;
+}
+.section-3-text{
+    color: white;
+    margin-right: 100px;
+}
+.heading-section-3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.paragraph-section-3{
+    font-size: 24px
+}
+#section-3-slika{
+    height: 400px;
+}
+.section-3-slika{
+    margin-left: 150px;
+    z-index: 1;
+}
+.kvadrat-preko-slike{
+    z-index: 2;
+    width: 270px;
+    height: 110px;
+    background-color: black;
+    border: 1px solid #5F5E5E   ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 68%;
+    left: 41%;
+}
+.section-3-wrapper-slike{
+    position: relative;
+}
+#slika-unutar-kvadrata{
+    height: 80px;
+    width: 60px;
+}
+.heading-unutar-kvadrata{
+    color: white;
+}
+.paragraph-unutar-kvadrata{
+    color: #0071EB; 
+}
+#animacija-download{
+    height: 60px;
+    width: 60px;
 }
