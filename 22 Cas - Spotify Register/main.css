@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.logo-header{
+    width: 130px ;
+    height: 40px;
+    margin: 30px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.text-header{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.registruj-se-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facebook-button{
+    margin-top: 10px;
+    height: 50px;
+    width: 430px;
+    border: none;
+    border-radius: 30px;
+    background-color: #405A93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+#facebook-logo-button{
+    font-size: 30px;
+    color: white;
+}
+#facebook-button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.google-button{
+    height: 50px;
+    width: 430px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#google-button{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: rgb(78, 78, 78);
+}
+#google-logo-button{
+    font-size: 25px;
+}
+.ili-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: gray;
+}
+hr{
+    width: 150px;
+}
+.signup-forma{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.label-style1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.label2{
+    margin-top: 3px;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.signup-forma > h1{
+    font-size: 18px;
+    margin: 20px;
+}
+.input-style1{
+    height: 50px;
+}
+.labeldiv{
+    display: flex;
+    gap: 20px;
+}
+#mesec{
+    width: 50px;
+}
+#dan{
+    width: 50px;
+}
+.forma-2{
+    display: flex;
+}
