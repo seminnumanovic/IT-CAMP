@@ -42,7 +42,7 @@ header{
     color: white;
 }
 #facebook-logo-button{
-    font-size: 30px;
+    font-size: 22px;
     color: white;
 }
 #facebook-button{
@@ -69,7 +69,8 @@ header{
     color: rgb(78, 78, 78);
 }
 #google-logo-button{
-    font-size: 25px;
+    width: 20px;
+    height: 20px;
 }
 .ili-div{
     margin-top: 20px;
@@ -110,17 +111,12 @@ hr{
 }
 .input-style1{
     height: 50px;
+    padding: 5px;
 }
-.labeldiv{
+.forma2{
     display: flex;
     gap: 20px;
 }
-#mesec{
-    width: 50px;
-}
-#dan{
-    width: 50px;
-}
-.forma-2{
+.forma21{
     display: flex;
 }

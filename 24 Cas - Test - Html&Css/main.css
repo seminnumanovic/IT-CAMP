@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 80px;
+    box-shadow: 0 5px 10px lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.header-appland{
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    color: #5777ba;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.header-desno{
+    display: flex;
+    gap: 25px ;
+    align-items: center;
+    margin-right: 150px;
+    color: gray;
+}
+.header-desno > p > a{
+    text-decoration: none;
+    color: gray;
+}
+.button-header{
+    padding: 5px;
+    height: 35px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #5777ba;
+    color: white;
+    border: none;
+}
+main{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#main-slika{
+    height: 400px;
+}
+.main-text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main-text-header{
+    color: #47536e;
+}
+.main-text-ispod-headera{
+    font-style: italic;
+    font-weight: thin;
+    color: #585a61;
+}
+.main-text-lista{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #585a61;
+}
+
+.svg-main-text{
+    margin-right: 10px;
+}
+.main-text-footer{
+    margin-top: 10px;
+    color: #585a61;
+}
+.bottom-left{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #5777ba;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 96%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEBF3;
+    height: 77px;
+}
+.footer-levo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #585a61;
+}
+#footer-levo-a{
+    text-decoration: none;
+    color: #2655b8;
+}
+.footer-desno{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+.ikonica-footer{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(218,217,233);
+}
