@@ -103,7 +103,6 @@
 //      st = Math.floor(i / 100);
 //      de = Math.floor((i%100)/10);
 //      je = Math.floor(i%10);
-    
 //     if(i === Math.pow(st*10+de,2)-Math.pow(je,2)){
 //         broj = i;
 //         console.log("brojevi:", broj);
@@ -134,22 +133,91 @@
 
 ///////////////////////// 4.18 zadatak //////////////
 
-let brojevi=0;
-let st=0;
-let de=0;
-let je=0;
-let suma=0;
+// let brojevi=0;
+// let st=0;
+// let de=0;
+// let je=0;
+// let suma=0;
 
-for(let i=100; i<=999; i++){
+// for(let i=100; i<=999; i++){
     
-     st = Math.floor(i / 100);
-     de = Math.floor((i%100)/10);
-     je = Math.floor(i%10);
+//      st = Math.floor(i / 100);
+//      de = Math.floor((i%100)/10);
+//      je = Math.floor(i%10);
 
-    if(st+de+je === 5){
-        brojevi++;
-        suma += i;
+//     if(st+de+je === 5){
+//         brojevi++;
+//         suma += i;
+//     }
+// }
+// console.log("suma je:", suma);
+// console.log("takvih brojeva ima:", brojevi); 
+
+
+
+// ///4.19
+
+// let broj = parseInt(prompt("Unesite broj:"))
+// console.log("Delioci su:");
+// for(let i=1; i <= broj; i++)
+// if(broj % i === 0)
+// console.log(i);
+
+///////4.20
+// let broj = parseInt(prompt("Unesite broj:"))
+// let suma = 0;
+// for ( i = 1; i < broj; i++)
+// {
+//     if( broj % i === 0)
+//     suma += i;
+// }
+// if (suma === broj){
+//     console.log("Jeste savrsen broj");
+// }
+// else
+// console.log("Nije savrsen");
+
+//////////4.21
+
+// let brojuc = parseInt(prompt("Unesite broj ucenika:"))
+// let ocena = 1;
+// for( let i = 1; i<=brojuc; i++ )
+// {
+//     ocena = parseInt(prompt("Unesite ocenu ucenika od 1 do 5:"))
+    
+// }
+
+
+// let n = parseInt(prompt("Unesite broj ucenika:"));
+
+// let ukupnaOcena = 0;
+// let brojOcena1 = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   let ocena = parseInt(prompt("Unesite ocenu za ucenika " + i + ":"));
+//   ukupnaOcena += ocena;
+//   if (ocena === 1) {
+//     brojOcena1++;
+//   }
+// }
+
+// let prosecnaOcena = ukupnaOcena / n;
+
+// console.log("Prosecna ocena svih ucenika: " + prosecnaOcena);
+// console.log("Broj ucenika sa ocenom 1 je: " + brojOcena1);
+
+
+
+/// 4.22
+let n = parseInt(prompt("Unesite n:"))
+let h,m,s;
+
+for( h = 0; h<=23; h++)
+    for( m = 0; m <=59; m++)
+        for( s = 0; s<= 59; s++)
+    {
+        if( h + m +s = n){
+        }
     }
-}
-console.log("suma je:", suma);
-console.log("takvih brojeva ima:", brojevi);
+
+
