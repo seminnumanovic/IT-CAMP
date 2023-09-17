@@ -209,15 +209,129 @@
 
 
 /// 4.22
-let n = parseInt(prompt("Unesite n:"))
-let h,m,s;
+// let n = parseInt(prompt("Unesite n:"))
+// let h,m,s;
 
-for( h = 0; h<=23; h++)
-    for( m = 0; m <=59; m++)
-        for( s = 0; s<= 59; s++)
-    {
-        if( h + m +s = n){
-        }
-    }
+// for( h = 0; h<=23; h++)
+//     for( m = 0; m <=59; m++)
+//         for( s = 0; s<= 59; s++)
+//     {
+//         if( h + m +s = n){
+//         }
+//     }
 
+// let n = parseInt(prompt("unesite n:"));
+
+// for (let i = 0; i < n; i++) 
+//     for (let j = 0; j < n*2; j++){
+//       console.log("*");
+//     console.log("\n");
+//     }
+
+/////  4.27
+
+// let n = parseInt(prompt("Unesite n:"))
+// let m = parseInt(prompt("Unesite m:"))
+
+// for(let i = 0; i < n; i++){
+//     for(let j = 0; j < m; j++){
+//         console.log(i);
+//     }
+//     console.log("\n");
+// }
+
+// let n = parseInt(prompt("Unesite n:"))
+
+// for( i =i <=n; i++ ){
+//     for( )
+// }
+
+
+/////4.28 
+
+///// a)
+
+// let n = parseInt(prompt("Unesite n: "))
+
+// for ( let i = 1; i<=n; i++){
+//     for (let j = 1; j <=n; j++)
+//     console.log("*");
+//     console.log("\n");
+// }
+
+
+
+///////  b)
+
+// let n = parseInt(prompt("Unesite n: "))
+
+// for(let i = 1; i<=n; i++){
+//     for (let j = 1; j <= n; j++){
+//         if( i === 1 && i === n;){
+//         console.log("* ");
+//     }
+//         else if( j===1 && j===n){
+//         console.log("* ");
+//     }
+//     else console.log("  ");
+
+//     }
+// }
+
+////// v)
+
+// let n = parseInt(prompt("Unesite n: "))
+
+// for( let i = 1; i <=n; i++){
+//     for(let j = 1; j <=i; j++)
+//     console.log("*");
+// console.log("\n");
+// }
+
+
+////// d)
+
+// let n = parseInt(prompt("Unesite n: "))
+
+// for( let i = 1; i <= n; i++){
+//     for(let j = n; j >=i; j--)
+//     console.log("*");
+// console.log("\n");
+// }
+
+
+
+// let n = parseInt(prompt("Unesite broj redova"))
+// let m = parseInt(prompt("Uneiste broj kolona"))
+
+// for ( let i = 1; i <= 1; i++);
+//     let rowOutput = '';
+//     for( let j = 0; j <= m; j++){
+//         if( i === 1 && i === n){
+//             rowOutput += '*'
+//         }
+//         else{
+//             if( j ==== 1 && j ==== m)
+//         }
+//     }
+
+// let n = parseInt(prompt(" n : "))
+
+// for (let i = 1; i <= i; i++)
+// {
+//     for ( let j = 1; j <=i; j++ )
+//     {
+//         if ( i === n){
+//             console.log("* ");
+//         }
+//         else {
+//             if (j===1 || j===i)
+//             {
+//                 console.log("* ");
+//             }
+//             else console.log(" ");
+//         }
+//         console.log("\n");
+//     }
+// }
 
